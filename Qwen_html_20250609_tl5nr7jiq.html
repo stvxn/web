@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Curso de Español</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Curso de Español Online</h1>
+    <p>Aprende español desde cero o mejora tu nivel con clases estructuradas y profesores certificados.</p>
+    <a href="#planes" class="btn">Ver Planes</a>
+  </header>
+
+  <!-- Features -->
+  <section>
+    <h2>¿Qué incluye el curso?</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Videos explicativos</h3>
+        <p>Clases grabadas y actualizadas semanalmente sobre gramática, pronunciación y vocabulario.</p>
+      </div>
+      <div class="feature">
+        <h3>Ejercicios interactivos</h3>
+        <p>Practica con tests, diálogos y juegos que te ayudan a aprender jugando.</p>
+      </div>
+      <div class="feature">
+        <h3>Profesor en vivo</h3>
+        <p>Acceso a sesiones semanales en vivo con profesores certificados de español como lengua extranjera.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="testimonials">
+    <h2>Lo que dicen nuestros alumnos</h2>
+    <div class="testimonial">
+      <p>"Excelente curso. He aprendido mucho y ahora puedo hablar con confianza en español." - <strong>Carlos R., Colombia</strong></p>
+    </div>
+    <div class="testimonial">
+      <p>"Los videos son muy claros y los ejercicios me han ayudado a mejorar mi escritura." - <strong>Ana G., México</strong></p>
+    </div>
+    <div class="testimonial">
+      <p>"El soporte es rápido y siempre resuelven mis dudas. ¡Muy recomendado!" - <strong>Luis T., Argentina</strong></p>
+    </div>
+  </section>
+
+  <!-- Precios -->
+  <section id="planes">
+    <h2>Planes y Precios</h2>
+    <div class="pricing">
+      <div class="plan">
+        <h3>Básico</h3>
+        <p class="price">$19.99/mes</p>
+        <ul>
+          <li>Acceso a todos los módulos</li>
+          <li>Material descargable</li>
+          <li>Tests semanales</li>
+        </ul>
+        <button onclick="window.location.href='https://tu-link-basico.com'"  class="btn">Comprar Ahora</button>
+      </div>
+      <div class="plan">
+        <h3>Premium</h3>
+        <p class="price">$39.99/mes</p>
+        <ul>
+          <li>Todas las funciones del básico</li>
+          <li>Sesiones en vivo 2 veces por semana</li>
+          <li>Soporte directo con profesor</li>
+        </ul>
+        <button onclick="window.location.href='https://tu-link-premium.com'"  class="btn">Comprar Ahora</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto con WhatsApp -->
+  <section id="contacto">
+    <h2>¿Tienes preguntas?</h2>
+    <p>Escríbenos para más información, pruebas gratuitas o ayuda para elegir el mejor plan para ti.</p>
+    <a href="https://wa.me/8299175812?text=Hola%20me%20interesa%20el%20curso%20de%20español" 
+       target="_blank" class="btn btn-whatsapp">Chatea con nosotros por WhatsApp</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; {{ new Date().getFullYear() }} Mi Curso de Español. Todos los derechos reservados.</p>
+    <p>Desarrollado por <strong>[Tu Nombre]</strong></p>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <script src="whatsapp.js"></script>
+</body>
+</html>

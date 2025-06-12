@@ -1,0 +1,6 @@
+curso-espanol/
+├── index.html
+├── style.css
+├── whatsapp.js
+└── assets/
+    └── logo.png  ← (puedes descargar cualquier imagen PNG y renombrarla así)
